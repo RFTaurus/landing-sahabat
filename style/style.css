@@ -1,0 +1,244 @@
+/* 
+    Landing Page Requirement:
+    > Header
+    > Headline
+    > Layanan
+    > Feature
+    > Portfolio
+    > Footer
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav img{
+    width: 50px;
+    height: auto;
+}
+
+@media screen and (max-width: 1920px){
+
+    /* General Architecture */
+    #sahabat-desktop{
+        display: block;
+    }
+
+    #sahabat-tablet{
+        display: none;
+    }
+    
+    #sahabat-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    /* General Architecture */
+    #sahabat-desktop{
+        display: none;
+    }
+
+    #sahabat-tablet{
+        display: block;
+    }
+    
+    #sahabat-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    /* General Architecture */
+    #sahabat-desktop{
+        display: none;
+    }
+
+    #sahabat-tablet{
+        display: none;
+    }
+
+    /* Mobile */
+    #sahabat-mobile{
+        display: block;
+    }    
+
+    #sahabat-mobile #headline .carousel-indicators > li {
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        background-color: #0064D2;
+    }
+
+    #sahabat-mobile #headline .carousel-indicators {
+        bottom:-50px;
+    }
+
+    #sahabat-mobile #headline .carousel-inner {
+        margin-bottom:50px;
+    }
+
+    #sahabat-mobile #layanan{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #sahabat-mobile #layanan img{
+        width: 50vw;
+        height: auto;
+    }
+
+    #sahabat-mobile #layanan h2{
+        padding: 20px 0px;
+        font-size: 2em;
+        line-height: 36px;
+        font-weight: bold;
+        color: #3E3E3E;
+    }
+
+    #sahabat-mobile #layanan h3{
+        padding-top: 15px;
+        font-size: 1.5em;
+        line-height: 36px;
+        font-weight: bold;
+        color: #0064D2;
+    }
+
+    #sahabat-mobile #layanan p{
+        padding-bottom: 20px;
+        font-size: 1em;
+        line-height: 24px;
+        color: #606060;
+    }
+
+    #sahabat-mobile #feature{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #sahabat-mobile #feature img{
+        width: 70vw;
+        height: auto;
+    }
+
+    #sahabat-mobile #feature a img{
+        width: 50vw;
+        height: auto;
+    }
+
+    #sahabat-mobile #feature h2{
+        padding: 20px 0px;
+        font-size: 2em;
+        line-height: 36px;
+        font-weight: bold;
+        color: #3E3E3E;
+    }
+
+    #sahabat-mobile #feature h3{
+        padding-top: 15px;
+        font-size: 1.5em;
+        line-height: 36px;
+        font-weight: bold;
+        color: #0064D2;
+    }
+
+    #sahabat-mobile #feature p{
+        padding-bottom: 20px;
+        font-size: 1em;
+        line-height: 24px;
+        color: #606060;
+    }
+
+    #sahabat-mobile #tutor{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #sahabat-mobile #tutor img{
+        width: 70vw;
+        height: auto;
+        /* box-shadow: 1px 2px 3px 1px rgba(46, 46, 46, 0.5); */
+    }
+
+    #sahabat-mobile #tutor h2{
+        padding: 20px 0px;
+        font-size: 2em;
+        line-height: 36px;
+        font-weight: bold;
+        color: #3E3E3E;
+    }
+
+    #sahabat-mobile #tutor h3{
+        padding-top: 15px;
+        font-size: 1.5em;
+        line-height: 36px;
+        font-weight: bold;
+        color: #0064D2;
+    }
+
+    #sahabat-mobile #tutor p{
+        padding-bottom: 20px;
+        font-size: 1em;
+        line-height: 24px;
+        color: #606060;
+    }
+
+    #sahabat-mobile #tutor a{
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 1em;
+        background-color: #0064D2;
+        border-radius: 12px;
+        color: #ffffff;        
+        transition: 0.5s;
+    }
+
+    #sahabat-mobile #tutor a:hover{
+        background-color: #ffffff;
+        border-radius: 12px;
+        border: solid 1px #0064D2;
+        color: #0064D2;  
+        transition: 0.5s;      
+    }
+
+    #sahabat-footer{
+        background-color: #EDEDED;
+        margin-top: 30px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    #sahabat-footer img{
+        width: 30vw;
+        height: auto;
+    }
+
+    #sahabat-footer a{
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #555555;
+    }
+
+    #sahabat-footer .title{
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #555555;
+        margin-top: 20px;
+    }
+
+    #sahabat-footer .info{
+        font-size: 1em;
+        color: #606060;
+    }
+
+    #sahabat-footer i{
+        color: #0064D2;
+        font-size: 40px;
+        padding: 15px 20px;
+    }
+}
